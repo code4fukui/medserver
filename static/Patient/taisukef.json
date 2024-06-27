@@ -1,0 +1,73 @@
+{
+  "id": "taisukef",
+  "resourceType": "Patient",
+  "meta": {
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
+    ]
+  },
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
+        }
+      ],
+      "use": "usual",
+      "text": "福野 泰介",
+      "family": "福野",
+      "given": [
+        "泰介"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "フクノ タイスケ",
+      "family": "フクノ",
+      "given": [
+        "タイスケ"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1978-11-08",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "1046",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+            "display": "Shinto"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+      "valueAddress": {
+        "state": "東京"
+      }
+    },
+    {
+      "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Patient_Race",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "2039-6",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-Race",
+            "display": "Japanese"
+          }
+        ]
+      }
+    }
+  ]
+}
