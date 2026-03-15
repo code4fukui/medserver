@@ -2,9 +2,6 @@
 
 Deno製の簡単なWebサーバーサンプルです。
 
-## デモ
-`http://localhost:8888/Patient/taisukef.json` にアクセスしてみてください。
-
 ## 機能
 - Deno上で動作するWebサーバー
 - FHIRデータのIPアドレスフィルタリング

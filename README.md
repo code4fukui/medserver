@@ -1,5 +1,7 @@
 # MedServer
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A test project for the MedServer, a Deno-based medical data server.
 
 ## Features
