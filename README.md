@@ -1,23 +1,22 @@
-# MedServer test
+# MedServer
 
-```sh
-deno run -A server.js 8888
-```
+A test project for the MedServer, a Deno-based medical data server.
 
-open http://localhost:8888/Patient/taisukef.json
+## Features
+- Deno-based web server
+- FHIR data IP address filtering
+- FHIR data JSON file conversion
 
-## IP filtering
+## Requirements
+Deno 1.28 or higher
 
-[src/Patient/.conf](src/Patient/.conf)
-```
-allow '::1'; # allow IP address
-deny all; # deny all
-```
+## Usage
+1. Clone the repository
+2. Run `deno run -A server.js 8888`
+3. Access `http://localhost:8888/Patient/taisukef.json`
 
-## convert
+## Data / API
+- FHIR JSON data: Convert `src/Patient/*.fsh` files using `convert.js`
 
-put file on [src](src)
-
-```sh
-deno run -A convert.js
-```
+## License
+This project is licensed under the MIT License.
