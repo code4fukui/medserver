@@ -21,4 +21,4 @@ Deno 1.28 or higher
 - FHIR JSON data: Convert `src/Patient/*.fsh` files using `convert.js`
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).
